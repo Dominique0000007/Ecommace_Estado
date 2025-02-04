@@ -13,6 +13,6 @@ public class ProdutoService {
 	CrudRepository repo;
 	
 	public List<Produto>buscarTodos;
-	Iterable list = repo.findAll()
-	retun list1
+	Iterable list = repo.findAll();
+	retun list1;
 }

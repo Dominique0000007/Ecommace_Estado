@@ -19,7 +19,8 @@ public class ProdutoController {
 	
 	@GetMapping
 	public ResponceEntity buscar(){
-		return  ResponceEntity.ok(servise.buscarTodos());
+		Object servise;
+		return  ResponceEntity.ok().buscarTodos();
 	}
 
 }

@@ -7,4 +7,14 @@ public class ResponceEntity {
 		return null;
 	}
 
+	public ResponceEntity buscarTodos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public ResponceEntity buscarTodos1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

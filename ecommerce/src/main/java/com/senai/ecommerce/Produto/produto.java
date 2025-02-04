@@ -1,14 +1,16 @@
 package com.senai.ecommerce.Produto;
 
+import jakarta.annotation.Generated;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_produto")
 public class produto {
 	
-	@id
-	@Generated
+	@Id
+	@Generated(value = { "" })
     private long id;
 	private String nome;
 	private String descricao;
